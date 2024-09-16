@@ -1,0 +1,132 @@
+.ma-shan-zheng-regular {
+  font-family: "Ma Shan Zheng", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: "Ma Shan Zheng", serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover; /* 确保背景图片覆盖页面 */
+    background-repeat: no-repeat; /* 禁止背景图片重复 */
+    background-position: center;
+    min-height: 100vh; /* 确保页面高度至少是视口的高度 */
+    height: 100vh; /* 强制页面高度等于视口高度 */
+    transition: background-image 1s ease;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-icons {
+    display: flex;
+    gap: 20px;
+}
+
+#poem-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+}
+
+#poem {
+    font-size: 2em;
+}
+
+#author-title {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* This was made with GlassGenerator.netlify.app */ 
+
+.glass-container{
+    width: 90%;
+    color: white;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.075);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 2px rgba(255, 255, 255, 0.4) solid;
+    border-bottom: 2px rgba(40, 40, 40, 0.35) solid;
+    border-right: 2px rgba(40, 40, 40, 0.35) solid;
+}
+
+#change-poem {
+  padding: 10px 20px;
+  background-color: #90ee90;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: "Ma Shan Zheng", serif;
+  border-radius: 5px;
+}
+
+#change-poem:hover {
+  background-color: #76c776;
+}
+
+#share-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#share-section input {
+  padding: 10px;
+  font-size: 1em;
+}
+
+#generate-screenshot {
+    padding: 10px 20px;
+    background-color: #90ee90;
+    border: none;
+    cursor: pointer;
+}
+
+/* 暗色模式 */
+body.dark {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+body.dark #change-poem {
+    background-color: #444;
+    color: #f0f0f0;
+}
+
+body.dark #change-poem:hover {
+    background-color: #666;
+}
+
+/* This was made with GlassGenerator.netlify.app */ 
+
+.glass-containr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,191,255, 0.075);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 2px rgba(255,255,255,0.4) solid;
+    border-bottom: 2px rgba(40,40,40,0.35) solid;
+    border-right: 2px rgba(40,40,40,0.35) solid;
+}

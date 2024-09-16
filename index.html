@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中秋一言</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>中秋一言</h1>
+        <div class="header-icons">
+            <span id="share-icon">📤</span>
+            <span id="mode-toggle">🌞</span>
+        </div>
+    </header>
+
+    <main>
+        <div id="poem-container">
+          <center>
+          <div class="glass-container" id="glass">
+            <p id="poem">加载中</p>
+            <br>
+            <p id="author-title"></p>
+          </div>
+          </center>
+        </div>
+        
+        <center><button id="change-poem">换一句</button></center>
+        
+        <div id="share-section" style="display: none;">
+            <input type="text" id="from-name" placeholder="您的姓名（可选）">
+            <input type="text" id="to-name" placeholder="您赠予的朋友的姓名">
+            <br><br>
+            <button id="generate-screenshot">生成截图以分享</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</body>
+</html>
