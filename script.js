@@ -65,16 +65,17 @@ document.getElementById('generate-screenshot').addEventListener('click', () => {
     shareSection.style.display = 'none'; // 隐藏分享部分
     
     const header = document.createElement('p');
+    header.style.background = '#D8D1C5';
     header.textContent = headerText;
     header.style.position = 'absolute';
     header.style.top = '10px';
     header.style.left = '10px';
     header.style.color = 'black';
-    header.style.fontSize = '24px'; // 增大字号
+    header.style.fontSize = '24px'; 
     document.body.appendChild(header);
 
     const footer = document.createElement('p');
-    footer.textContent = '中秋一言 - https://mid-autumn.brume.top/ ';
+    footer.textContent = '中秋一言 - HTTPS://MID-AUTUMN.BRUME.TOP/ ';
     footer.style.position = 'absolute';
     footer.style.bottom = '10px';
     footer.style.right = '10px';
